@@ -29,7 +29,7 @@ const Pasos = () => {
             {pasos.map( paso => (
                 <button 
                     key={paso.paso}
-                    className="text-2xl font-bold p-10"
+                    className="text-2xl font-bold p-2"
                     onClick={() =>{
 
                         router.push(paso.url)

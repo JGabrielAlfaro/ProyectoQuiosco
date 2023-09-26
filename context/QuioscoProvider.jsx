@@ -28,7 +28,7 @@ const QuioscoProvider = ({ children }) => {
 
   useEffect(() => {
     obtenerCategorias();
-    refrescar();
+    //  refrescar();
   }, []);
 
   useEffect(() => {

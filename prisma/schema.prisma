@@ -15,11 +15,12 @@ model categoria {
 }
 
 model orden {
-  id     Int    @id @default(autoincrement())
+  id     Int     @id @default(autoincrement())
   nombre String
   fecha  String
   total  Float
-  pedido String @db.LongText
+  pedido String  @db.LongText
+  estado Boolean @default(false)
 }
 
 model producto {

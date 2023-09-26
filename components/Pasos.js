@@ -25,11 +25,11 @@ const Pasos = () => {
 
   return (
     <>
-        <div className="flex justify-between mb-5 ">
+        <div className="flex justify-between mb-5 px-2">
             {pasos.map( paso => (
                 <button 
                     key={paso.paso}
-                    className="text-2xl font-bold p-2"
+                    className="text-2xl font-bold"
                     onClick={() =>{
 
                         router.push(paso.url)
